@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Міша Луговий</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header, footer {
+      background-color: #f9f9f9;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 200px;
+      height: auto;
+      border-radius: 12px;
+      margin-top: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    .walk img, .rice img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .rice-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .rice-text {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .rice-video {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .rice-video video {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer p {
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Міша Луговий</h1>
+    <img src="2.png" alt="Фото Міші Лугового" />
+    <p>Хлопець, що обожнює рис і бабусю ❤️</p>
+  </header>
+
+  <main>
+    <section class="walk">
+      <h2>Прогулянка з бабусею</h2>
+      <p>Міша щодня гуляє з бабусею парком. Вони розмовляють про життя, годують голубів і сміються.</p>
+      <img src="grandma-walk.jpg" alt="Міша гуляє з бабусею" />
+    </section>
+
+    <section class="rice">
+      <h2>Рис — його пристрасть</h2>
+      <div class="rice-content">
+        <div class="rice-text">
+          <p>Міша їсть рис руками, бо так смачніше. Він каже: "Якщо не руками — то й не рис!"</p>
+          <img src="eating-rice.jpg" alt="Міша їсть рис руками" />
+        </div>
+        <div class="rice-video">
+          <video controls>
+            <source src="1.mp4" type="video/mp4" />
+            Ваш браузер не підтримує відео.
+          </video>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Міша Луговий. Всі права захищено 🌾</p>
+  </footer>
+</body>
+</html>
